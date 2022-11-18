@@ -1,0 +1,14 @@
+#not-found-item {
+    background-color: rgba(30, 30, 30, .45);
+    border: solid 2px rgba(255, 255, 255, .125);
+    border-radius: 5px;
+    color: inherit;
+    display: block;
+    outline: 0;
+    margin: auto;
+    padding: auto;
+    text-decoration: none;
+    width: 80%;
+
+    text-align: center;
+}

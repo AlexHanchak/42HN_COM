@@ -1,0 +1,167 @@
+#header-nav-bar {
+    background-color: transparent !important;
+    color: inherit;
+    outline: 0;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    right: 0;
+    text-decoration: none;
+}
+
+#brand-nav-bar {
+    color: #ffffff;
+}
+
+.s {
+    list-style: none;
+    margin: 0;
+    padding-inline-start: 0;
+}
+
+.dropdown-menu {
+    background-color: rgba(2,2,2, 0.4);
+}
+
+.navbar-toggler{
+    background: rgba(255, 255, 255, .4);
+    
+}
+
+.navbar-light .navbar-toggler {
+    border-color: #ffffff;
+}
+
+#brand-nav-bar::first-letter {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: none !important;
+}
+
+#brand-nav-bar::first-letter {
+    font-size: 2.5em;
+    height: 3.5em;
+    left: 0;
+    margin-left: 40px;
+    line-height: 2.35em;
+    text-align: center;
+    top: 0;
+    width: 2.5em;
+}
+
+#buttons-nav-top {
+    margin-right: 40px;
+}
+
+#buttons-nav-top li > .primary {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    -moz-transition: background-color 0.2s ease-in-out;
+    -webkit-transition: background-color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out;
+    background-color: #4c5c96;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.125);
+    color: #ffffff !important;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0.8em;
+    font-weight: 700;
+    height: 3.75em;
+    letter-spacing: 0.1em;
+    line-height: 3.75em;
+    padding: 0 2.25em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+#buttons-nav-top li > .secondary {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    -moz-transition: background-color 0.2s ease-in-out;
+    -webkit-transition: background-color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out;
+    background-color: rgba(30, 30, 30, .25);
+    border-radius: 5px;
+    border: 0;
+    box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.125);
+    color: #ffffff !important;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0.8em;
+    font-weight: 700;
+    height: 3.75em;
+    letter-spacing: 0.1em;
+    line-height: 3.75em;
+    padding: 0 2.25em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+#buttons-nav-top .link {
+    color: white;
+}
+
+#buttons-nav-top .secondary:hover {
+    background-color: rgba(255, 255, 255, 0.025);
+}
+
+#buttons-nav-top .primary:hover {
+    background-color: rgba(255, 255, 255, 0.025);
+}
+
+#buttons-nav-top .secondary:active {
+    background-color: rgba(255, 255, 255, 0.075);
+}
+
+#buttons-nav-top .primary:active {
+    background-color: rgba(255, 255, 255, 0.075);
+}
+
+@media screen and (max-width: 996px) {
+    .navbar-nav {
+        text-align: right;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .navbar-nav {
+        text-align: right;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #welcome-button {
+        padding: 0;
+    }
+    .navbar-nav {
+        text-align: right;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .navbar-nav {
+        text-align: right;
+        display: flex;
+        flex-direction: column;
+    }
+}

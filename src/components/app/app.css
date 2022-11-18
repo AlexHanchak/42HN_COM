@@ -1,0 +1,74 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+@font-face {
+    font-display:auto;
+}
+
+#tsparticles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#body-id {
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+#root {
+    width: inherit;
+    height: inherit;
+}
+
+.App {
+    height: inherit;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+    width: 0;
+}
+
+.main {
+    margin: 0;
+    width: inherit;
+}
+
+
+@media screen and (max-width: 768px) {
+    #body-id {
+        /*background-color: black;*/
+        /* background-image: url("../../images/BG-768.WebP"); */
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 414px) {
+    #body-id {
+        /*background-color: black;*/
+        /* background-image: url("../../images/BG-414.WebP"); */
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    #body-id {
+        height: 100%;
+    }
+}

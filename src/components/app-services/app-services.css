@@ -1,0 +1,20 @@
+.app-service {
+    background: rgba(255, 255, 255, .05);
+    border-radius: 10px;
+    height: 100%;
+    width: auto;
+    margin: auto;
+    padding: 0;
+    background-blend-mode: overlay;
+    padding-bottom: 30px;
+}
+
+.app-service h4 {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.app-service p {
+    text-align: center;
+}

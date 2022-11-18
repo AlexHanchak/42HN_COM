@@ -1,0 +1,57 @@
+#app-main {
+    position: relative;
+    background: rgba(255, 255, 255, .05);
+    border-radius: 10px;
+    height: inherit;
+    margin: auto;
+    padding: 0;
+    width: 60%;
+    justify-content: center;
+}
+
+#app-main h4 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#app-main h5 {
+    text-align: center;
+}
+
+#app-main ul {
+    margin-top: 30px;
+}
+
+#app-main li {
+    list-style: none;
+    font-size: 17px;
+}
+
+#app-main img {
+    height: 18rem;
+}
+
+#PhotoImg {
+    border: aliceblue solid 2px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+
+#app-main a {
+    color: white;
+    text-decoration: none;
+}
+
+#app-main a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 640px) {
+    #PhotoImg {
+        display: none;
+    }
+}

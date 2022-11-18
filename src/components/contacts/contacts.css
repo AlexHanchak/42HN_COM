@@ -1,0 +1,148 @@
+.contacts {
+    padding: 10px;
+    width: 90%;
+    border-top: 2px solid rgba(255, 255, 255, .50);
+    border-bottom: 2px solid rgba(255, 255, 255, .50);
+    margin: 0 auto;
+}
+
+.contacts input {
+    width: 100%;
+}
+
+.contacts textarea {
+    resize: none;
+    width: 100%;
+}
+
+.contacts label {
+    color: #ffffff;
+    display: block;
+    font-size: 0.8em;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    margin: 0 0 0.7em 0;
+    text-transform: uppercase;
+}
+
+.contacts input {
+    background: rgba(255, 255, 255, 0);
+    border: solid 2px rgba(255, 255, 255, 0.125);
+    border-radius: 5px;
+    color: inherit;
+    display: block;
+    outline: 0;
+    padding: 0 1em;
+    text-decoration: none;
+    width: 100%;
+}
+
+.contacts input {
+    height: 2.75em;
+}
+
+.contacts textarea {
+    background: rgba(255, 255, 255, 0);
+    border: solid 2px rgba(255, 255, 255, 0.125);
+    border-radius: 5px;
+    color: inherit;
+    display: block;
+    outline: 0;
+    padding: 1em;
+    height: 130px;
+    resize: none;
+    text-decoration: none;
+    width: 100%;
+}
+
+.contacts button {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -moz-transition: background-color 0.2s ease-in-out;
+    -webkit-transition: background-color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.125);
+    color: #ffffff !important;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0.8em;
+    font-weight: 700;
+    height: 3.75em;
+    letter-spacing: 0.1em;
+    line-height: 3.75em;
+    padding: 0 2.25em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+    margin-bottom: 30px;
+}
+
+.contacts button:hover {
+    background-color: rgba(255, 255, 255, 0.025);
+}
+
+.contacts button:active {
+    background-color: rgba(255, 255, 255, 0.075);
+}
+
+.contacts ul {
+    padding: 0;
+}
+
+.contacts li {
+    list-style: none;
+    margin: 1em 0 0 0 !important;
+    padding: 0 0 0 3.25em;
+    position: relative;
+}
+
+.contacts li:before {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: none !important;
+}
+
+.contacts li:before {
+    border-radius: 100%;
+    border: solid 2px rgba(255, 255, 255, 0.125);
+    display: inline-block;
+    font-size: 0.8em;
+    height: 2.5em;
+    left: 0;
+    line-height: 2.35em;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 2.5em;
+}
+
+.contacts a {
+    text-decoration: none;
+    color: white;
+}
+
+.contacts a {
+    text-decoration: none;
+    color: white;
+}
+
+.contacts a:hover {
+    color: white;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.contacts li {
+    list-style: none;
+    display: inline-block;
+    margin: 2.5em 0 0 0;
+    padding: 0 0 0 3.25em;
+    position: relative;
+}

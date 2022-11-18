@@ -1,0 +1,14 @@
+.app-footer {
+    margin-top: 30px;
+    background-color: rgba(49, 49, 49, .25);
+    border-radius: 10px;
+    width: 100%;
+
+}
+
+@media screen and (max-width: 640px) {
+    .app-footer {
+        width: 60%;
+    }
+}
+

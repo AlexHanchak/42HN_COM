@@ -1,0 +1,54 @@
+{
+  "nav": {
+    "cName": "HanchakWeb.firebase.com",
+    "Home": "Home",
+    "About": "About",
+    "Contacts": "Contacts",
+    "Services": "Services",
+    "Summary": "Summary",
+    "Language": "Language",
+    "English": "English",
+    "Russian": "Русский",
+    "Ukrainian": "Українська"    
+  },
+  "About": {
+      "obj1p": "I have been starting my way in ",
+      "Jonco": "Jonco Lab Freelance Team",
+      "obj2p": ", with a several friends in 2016.",
+      "obj3p": "I have already grown to full stack web developer, able to handle tasks of diverse directions and complexity.",
+      "obj4p": "My work is based strongly on a client's preferences and creative approach to each project.",
+      "obj5p": "I use new technologies and try to look up to the latest best updates of stable releases.",
+      "obj6p": "I like to learn new technologies and use this in my projects.",
+      "obj7p": "My main preferences are ",
+      "obj8p": "code quality and stability of my applications.",
+      "obj9p": "I consider myself as a hard worker and a positive minded person, who has willing to build the best product and also I am a team player.",
+      "b1": "My summary on site resume.io",
+      "b2": "My summary PDF for download =)"
+  },
+  "Contacts": {
+    "Title": "Contact with us or send comment with a wishes",
+    "Subject": "Our administrators will contact you shortly.",
+    "Name": "Name",
+    "Email": "Email",
+    "Message": "Message",
+    "Send": "Send"
+  },
+  "Services": {
+    "obj1h": "Web applications of any complexity.",
+    "obj1p": "Promotional, personal business cards, corporate, showcases.",
+    "obj2p": "Social, corporate social, online shopping.",
+    "obj3p": "This is just a short list of development.",
+    "obj4p": "Your wishes will expand this sheet."
+  },
+  "Summary": {
+    "obj1": "Landing Site business card",
+    "obj2": "Resource created for employers and those who want to find work",
+    "obj3": "Personal business card",
+    "obj4": "Company business card",
+    "obj5": "Desktop stopWatch",
+    "obj6": "Desktop TypingSpeedApp",
+    "obj7": "Desktop SnakeByPygame",
+    "obj8": "Shop-site"
+    
+  }
+}

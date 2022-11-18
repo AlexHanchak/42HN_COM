@@ -1,0 +1,38 @@
+.about {
+    height: 95%;
+}
+
+.title-about {
+    padding-top: 30px;
+}
+
+.myself {
+    position: relative;
+    background: rgba(255, 255, 255, .09);
+    border-radius: 10px;
+    height: inherit;
+    margin: 10px auto;
+    padding: 30px;
+}
+
+
+.myself a {
+    text-decoration: none;
+    color: white;
+}
+
+.myself a {
+    text-decoration: none;
+    color: white;
+}
+
+.myself a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 640px) {
+    .myself button {
+        margin: 10px 10px auto;
+    }
+}

@@ -1,0 +1,52 @@
+.summary {
+    height: inherit;
+    margin: auto;
+    padding: 0;
+}
+.itemSummary p {
+    width: 250px;
+}
+
+.itemSummary img {
+    border-radius: 10px;
+    margin-top: 30px;
+    height: 300px;
+    min-height: 300px;
+    min-width: 250px;
+}
+
+.itemSummary a {
+    text-decoration: none;
+    color: white;
+}
+
+.itemSummary a {
+    text-decoration: none;
+    color: white;
+}
+
+.itemSummary a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 640px) {
+    .itemSummary {
+        text-align: center;
+    }
+
+    .itemSummary p {
+        margin: auto;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    .itemSummary {
+        text-align: center;
+    }
+
+    .itemSummary p {
+        margin: auto;
+    }
+}
