@@ -1,32 +1,48 @@
 import React from "react";
 import "./about.css";
 import { useTranslation } from "react-i18next";
+import Ima from "../../images/assyzdyk.jpg";
+import ImaPic from "../../images/istockphoto-1300845620-170667a.jpg";
 
 const About = () => {
   const { t } = useTranslation();
   return (
     <div className="container about">
       <div className="myself">
-        <p>
-          {t("About.obj1p")}
-          <b>{t("About.Jonco")}</b>
-          {t("About.obj2p")}
-        </p>
-        <p>{t("About.obj3p")}</p>
-        <p>{t("About.obj4p")}</p>
-        <p>{t("About.obj5p")}</p>
-        <p>{t("About.obj6p")}</p>
-        <p>
-          {t("About.obj7p")}
-          <b>{t("About.obj8p")}</b>
-        </p>
-        <p>{t("About.obj9p")}</p>
-        <div id="b">
-          
-            <button className="btn btn-outline-light ml-2">
-              {t("About.b2")}
-            </button>
-          
+        <div className="slotE">
+          <img src={Ima} alt="PhotoImg" id="PhotoImg"/>
+          <p>Sandra baloc</p>
+          <p>125</p>
+          <p>Get next line</p>
+          <img src={ImaPic} alt="PhotoImg" id="PhotoImg"/>
+        </div>
+        <div className="slotE">
+          <img src={Ima} alt="PhotoImg" id="PhotoImg"/>
+          <p>Sandra baloc</p>
+          <p>100</p>
+          <p>Printf</p>
+          <img src={ImaPic} alt="PhotoImg" id="PhotoImg"/>
+        </div>
+        <div className="slotE">
+          <img src={Ima} alt="PhotoImg" id="PhotoImg"/>
+          <p>Sandra baloc</p>
+          <p>110</p>
+          <p>Born2beroot</p>
+          <img src={ImaPic} alt="PhotoImg" id="PhotoImg"/>
+        </div>
+        <div className="slotE">
+          <img src={Ima} alt="PhotoImg" id="PhotoImg"/>
+          <p>Sandra baloc</p>
+          <p>100</p>
+          <p>Libft</p>
+          <img src={ImaPic} alt="PhotoImg" id="PhotoImg"/>
+        </div>
+        <div className="slotE">
+          <img src={Ima} alt="PhotoImg" id="PhotoImg"/>
+          <p>Sandra baloc</p>
+          <p>125</p>
+          <p>Get next line</p>
+          <img src={ImaPic} alt="PhotoImg" id="PhotoImg"/>
         </div>
       </div>
     </div>

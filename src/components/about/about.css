@@ -2,6 +2,21 @@
     height: 95%;
 }
 
+img {
+    height: 100px;
+    width: 100px;
+}
+
+.slotE {
+    display:flex;
+    width: 700px;
+    margin: auto;
+}
+
+.slotE p {
+    font-size: 30px;
+}
+
 .title-about {
     padding-top: 30px;
 }
