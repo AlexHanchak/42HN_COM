@@ -7,29 +7,118 @@ img {
     width: 100px;
 }
 
+.slotE:hover {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    border: 0;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    padding: 50px 50px;
+    background-color: rgba(238, 0, 36, 0.5);
+    transition: 200ms;
+}
+
 .slotE {
-    display:flex;
-    width: 700px;
-    margin: auto;
+    display: flex;
+    width: 100%;
+    margin: 0;
+    border: 0;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 50px 50px;
+    background-color: rgba(238, 0, 36, 0.3);
 }
 
 .slotE p {
+    text-align: left;
     font-size: 30px;
+    margin: 10px 60px;
+}
+
+.score {
+    margin: 0;
+    border: 0px;
+    border-radius: 10px;
+    background-color: green;
+    text-decoration: white;
+    padding: 5px 15px;
+    max-width: fit-content;
+}
+
+.evalBox {    
+    display: none;
+}
+
+.score {    
+    display: none;
+}
+
+.slotE:hover .score {
+    display: flex;
+    transition: 200ms;
+}
+
+.slotE:hover .evalBox p{ 
+    display: block;  
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    margin: 5px;
+    transition: 200ms;
+}
+
+.slotE:hover .evalBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 5px;
+    transition: 200ms;
 }
 
 .title-about {
     padding-top: 30px;
 }
 
+.subBtn {
+    display: flex;
+    flex-direction: column;
+}
+
+.subBtn p{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    font-size: 10px;
+    text-align: center;
+}
+
+.subBtn button{
+    background-color: orange;
+    border: 0;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: large;
+}
+
 .myself {
     position: relative;
     background: rgba(255, 255, 255, .09);
     border-radius: 10px;
-    height: inherit;
-    margin: 10px auto;
     padding: 30px;
 }
 
+.myself p{
+    flex: 3;
+}
 
 .myself a {
     text-decoration: none;
@@ -44,6 +133,24 @@ img {
 .myself a:hover {
     color: white;
     text-decoration: none;
+}
+
+#evalPic {
+    border: 2px white solid;
+    border-radius: 100%;
+    margin: 5px;
+    height: 50px;
+    width: 50px;
+}
+
+
+
+#evaluatedPic {
+    border: 2px white solid;
+    border-radius: 100%;
+    margin: 5px;
+    height: 50px;
+    width: 50px;
 }
 
 @media screen and (max-width: 640px) {
