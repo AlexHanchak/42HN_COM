@@ -9,7 +9,7 @@ import AppMain from "../app-main";
 import About from "../about";
 import Contacts from "../contacts";
 import AppFooter from "../app-footer";
-import Summary from "../summary";
+import Score from "../score";
 
 //scc app
 import "./app.css";
@@ -26,7 +26,7 @@ export default class App extends Component {
             <Route exact path="/" component={AppMain} />
             <Route path="/about" component={About} />
             <Route path="/contacts" component={Contacts} />
-            <Route path="/summary" component={Summary} />
+            <Route path="/score" component={Score} />
             <Route component={AppMain} />
           </Switch>
         </main>

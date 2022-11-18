@@ -1,11 +1,13 @@
 #app-main {
     position: relative;
     background: rgba(255, 255, 255, .05);
+    background-image: url("../../images/1.png");
+    background-repeat: no-repeat;
     border-radius: 10px;
     height: inherit;
     margin: auto;
     padding: 0;
-    width: 60%;
+    width: 50%;
     justify-content: center;
 }
 

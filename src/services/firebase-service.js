@@ -7,6 +7,7 @@ import * as PropTypes from 'prop-types';
 
 // Initialize Firebase
 const _conf = {
+
     databaseURL: "https://hn42com.firebaseio.com",
     apiKey: "AIzaSyDYKeC7TSGBh6718AHNl0-d0phwf8iprMI",
     authDomain: "hn42com.firebaseapp.com",

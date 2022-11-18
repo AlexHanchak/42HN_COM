@@ -12,27 +12,6 @@ import "font-awesome/css/font-awesome.min.css";
 render(
     <ErrorBoundry>
         <Router>
-            {/* background */}
-            {/* <Particles
-                params={{
-                    particles: {
-                        number: {
-                            value: 100,
-                        },
-                        size: {
-                            value: 3,
-                        },
-                    },
-                    interactivity: {
-                        events: {
-                            onhover: {
-                                enable: true,
-                                mode: "repulse",
-                            },
-                        },
-                    },
-                }}
-            /> */}
             <Suspense fallback={'Loading'}>
                 <FirebaseApp app={App}/>
             </Suspense>
